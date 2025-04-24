@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="server.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+
+            
+            <a href="index.html"><img class="logo" src="#" alt=""></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <i class="fas fa-bars" style="color:#ffffff"></i>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="index.html"> Inicio</a></li>
+                    <li> <a href="productos.html"> Productos</a></li>
+                    <li> <a href="aboutus.html"> Sobre Nosotros</a></li>
+                    <li> <a href="MiCuenta.html"> Registrarse</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="carrito.webp" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content">
+            <div class="header-img">
+                <img src="foto1.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>estrena las mejores prendas</p>
+                <a href="#" class="btn-1"></a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
